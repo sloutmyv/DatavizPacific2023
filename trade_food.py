@@ -271,4 +271,5 @@ if __name__ == "__main__":
     #     df_commodity_raw['OBS_VALUE']*100/total_import_ton, 2)
     # df_commodity_raw['PCT_OBS_VALUE_CUMSUM'] = round(
     #     df_commodity_raw['PCT_OBS_VALUE'].cumsum(), 2)
-    print(df_commodity_importer)
+    print(df_commodity_importer.pivot_table(columns='IMPORTER: Importer',
+          index='COMMODITY: Commodity', values='OBS_VALUE'))
