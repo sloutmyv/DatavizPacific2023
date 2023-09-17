@@ -126,27 +126,4 @@ Installer les dépendances présentes dans un fichier “requirement.txt” :
 pip install -r requirement.txt
 ```
 
-## Simple data analysis
-
-Sets of data : 
-- SPC :
-    - TRADE FOOD
-    - FOOD SECURITY
-- OPENDATANC : 
-    - FRUITS ET LEGUMES (2 jeux)
-    - PRIX PRODUITS ALIMENTAIRE 2012 --> 2023 (11 jeux)
-
-### TRADE FOOD
-
-N'est considéré comme pays de provenance que le groupe Australie/Nouvelle zélande
-
-**Données/graphique 1 : qté totale importée par pays sur la période 1995 --> 2018 (23 ans)**
-Notes : 
-- 80% de la qté importée par 3 des 18 pays étudiés
-
-**Données/graphique 2 : qté totale importée par type sur la période 1995 --> 2018 (23 ans)**
-Notes : 
-- +50% de la qté importée concerne les céréales 
-- Il faudrait voir si la tendance se vérifie par pays
-
 
